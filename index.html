@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fa/css/all.css">
+    <style>
+        /* 设置容器样式 */
+        .outer {
+            width: 320px;
+            margin: 48px auto;
+            /* 阴影 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        img {
+            width: 100%;
+        }
+        .info{
+            padding: 0 18px;
+            color:#717171;
+            font-size:14px;
+        }
+        .info .title{
+            color: #717171;
+            font-size: 18px;
+            margin: 13px 0 15px 0;
+        }
+        .category{
+            color: #bababa;
+        }
+        .category i{
+            margin-left: 4px;
+            margin-right: 8px;
+        }
+        .introduction{
+            margin-left:4px;
+            margin-top:20px;
+            margin-bottom: 18px;
+            line-height: 20px;
+        }
+        .star-wrapper{
+            height: 48px;
+            border-top: #dddddd 1px solid;
+            color: #dddddd;
+            padding: 0 16px;
+        }
+        /* 评分 */
+        .star{
+            float: left;
+            line-height: 48px;
+        }
+        .star .light{
+            color:#b9cb41;
+        }
+        .icon{
+            float: right;
+            line-height: 48px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <!-- 图片 -->
+        <div class="image-wrapper">
+            <img src="movie2.jpg" alt="">
+        </div>
+        <!-- 内容 -->
+        <div class="info">
+            <h2 class="title">
+                国产电影
+            </h2>
+            <h3 class="category">
+                <i class="fas fa-map-marker-alt"></i>
+                古装/战争/历史
+            </h3>
+            <p class="introduction">
+                八卦阵一战，孙刘联军力挫曹兵之锐气。曹操（张丰毅 饰）为此忧心忡忡，加之北方将士因水土不服，死伤过重，更令其头风病发作，幸得侍女骊姬（小宋佳 饰）陪伴照顾。孙尚香（赵薇 饰）易容潜入曹营，借士官长（佟大为
+                饰）垂青，窃取军情。为了适应水战，曹操采纳荆州降将蔡瑁、张允的意见，将战船用铁锁相连。此后，曹操帐下谋士蒋干（师小红 饰）主动请缨前去拜访故友周瑜（梁朝伟
+                饰）刺探虚实。周瑜将计就计，假借酒醉泄露军机，让蒋干带回假情报，曹操一怒之下误杀了蔡瑁张允。曹操将因瘟疫致死的将士尸体投入江水，名曰“鬼兵”，意欲扰乱孙刘联盟之军心，小乔（林志玲
+                饰）见此情景，遂决定夜探曹营，劝其退兵。眼看万事具备，但是风向不对，周瑜遂派鲁肃（侯勇 饰）找诸葛亮（金城武 饰）寻助……
+            </p>
+        </div>
+        <!-- 评分 -->
+        <div class="star-wrapper">
+            <ul class="star">
+                <li class="fas fa-star light"></li>
+                <li class="fas fa-star light"></li>
+                <li class="fas fa-star light"></li>
+                <li class="fas fa-star "></li>
+                <li class="fas fa-star "></li>
+            </ul>
+            <ul class="icon">
+                <li class="fab fa-weixin icon"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
